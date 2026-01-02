@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # ---------------------------
-# Load trained model 
+# Load trained model  
 # ---------------------------
 @st.cache_resource 
 def load_model():
