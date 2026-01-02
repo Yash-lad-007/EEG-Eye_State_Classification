@@ -5,7 +5,7 @@ import numpy as np
 # ---------------------------
 # Load trained model
 # ---------------------------
-@st.cache_resource
+@st.cache_resource 
 def load_model():
     with open("model.pkl", "rb") as file:
         model = pickle.load(file)
